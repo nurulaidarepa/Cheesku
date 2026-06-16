@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheesku. - Premium Burnt Cheesecake Artisan</title>
+    <!-- Tailwind CSS untuk Desain Responsif & Modern -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts: Playfair Display (Mewah) & Plus Jakarta Sans (Clean) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .font-serif-aesthetic { font-family: 'Playfair Display', serif; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-[#FAF6F0] text-[#4A2E1B]">
+
+    <!-- NAVBAR -->
+    <nav class="bg-[#FAF6F0]/80 backdrop-blur-md sticky top-0 z-50 border-b border-[#EFEBE9] shadow-xs">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- LOGO TEXT BRAND -->
+            <a href="#" class="font-serif-aesthetic text-2xl font-bold tracking-wide text-[#4A2E1B]">
+                Cheesku<span class="text-[#9B2C2C]">.</span>
+            </a>
+            <div class="hidden md:flex space-x-8 font-medium text-sm tracking-wide">
+                <a href="#home" class="text-[#4A2E1B] hover:text-[#9B2C2C] transition">Home</a>
+                <a href="#about" class="text-[#4A2E1B] hover:text-[#9B2C2C] transition">Keunggulan</a>
+                <a href="#menu" class="text-[#4A2E1B] hover:text-[#9B2C2C] transition">Varian Menu</a>
+                <a href="#pembayaran" class="text-[#4A2E1B] hover:text-[#9B2C2C] transition">Cara Bayar</a>
+            </div>
+            <a href="https://wa.me/6289508201339?text=Halo%20Cheesku,%20saya%20tertarik%20untuk%20memesan%20Burnt%20Cheesecake%20premiumnya!" target="_blank" class="bg-[#9B2C2C] text-[#FFF] text-xs uppercase font-semibold tracking-wider px-6 py-2.5 rounded-full hover:bg-[#4A2E1B] transition shadow-md">
+                Pesan Sekarang
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="max-w-6xl mx-auto px-6 py-12 md:py-24 flex flex-col md:flex-row items-center gap-12">
+        <div class="flex-1 space-y-6 text-center md:text-left">
+            <span class="inline-block bg-[#F1E4D3] text-[#9B2C2C] text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full">
+                ✨ Authentic Basque Burnt Cheesecake
+            </span>
+            <h1 class="font-serif-aesthetic text-4xl md:text-6xl font-bold leading-tight text-[#3A2218]">
+                Kemewahan Rasa <br>Selembut <span class="italic text-[#9B2C2C]">Velvet</span>, Karamelisasi Sempurna yang <span class="italic text-[#A0522D]">Eksklusif</span>.
+            </h1>
+            <p class="text-gray-600 text-base md:text-lg max-w-lg leading-relaxed">
+                Menghadirkan kelezatan baked cheesecake premium dari <strong>Cheesku.</strong> dengan bagian dalam yang super lumer (creamy) dan permukaan karamel beraroma khas.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4 pt-4">
+                <a href="#menu" class="bg-[#9B2C2C] text-[#FFF] text-center px-8 py-4 rounded-xl font-semibold tracking-wide hover:bg-[#4A2E1B] transition shadow-lg">
+                    Jelajahi Menu
+                </a>
+                <a href="https://wa.me/6289508201339?text=Halo%20Cheesku,%20mau%20tanya%20stok%20ready%20hari%20ini%20dong" target="_blank" class="border border-[#9B2C2C] text-[#9B2C2C] text-center px-8 py-4 rounded-xl font-semibold hover:bg-[#9B2C2C] hover:text-white transition">
+                    Tanya Admin (WA)
+                </a>
+            </div>
+        </div>
+        <div class="flex-1 relative">
+            <div class="absolute -inset-2 bg-[#EADBC8] rounded-[2rem] filter blur-xl opacity-40 -z-10"></div>
+            <!-- Gambar Utama / Hero Image -->
+            <img src="https://images.unsplash.com/photo-1524351199679-46cddf530c04?q=80&w=600&auto=format&fit=crop" alt="Premium Burnt Cheesecake Cheesku" class="rounded-[2rem] shadow-2xl mx-auto object-cover w-full max-w-md h-[480px]">
+        </div>
+    </section>
+
+    <!-- HUB PENGIRIMAN & BRAND VALUES -->
+    <section id="about" class="bg-[#F3EDE2] py-16 border-y border-[#EFEBE9]">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 space-y-3 bg-[#FAF6F0] rounded-2xl shadow-xs border border-[#EADBC8]">
+                    <div class="w-12 h-12 bg-[#F1E4D3] text-[#9B2C2C] rounded-full flex items-center justify-center text-xl mx-auto">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3 class="font-serif-aesthetic font-bold text-lg text-[#3A2218]">Pengiriman Strategis</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">Dikirim langsung dari area <strong>Tanjungsari - Jatinangor</strong>. Menjamin kue tetap fresh dan aman sampai ke tangan Anda.</p>
+                </div>
+                <div class="p-6 space-y-3 bg-[#FAF6F0] rounded-2xl shadow-xs border border-[#EADBC8]">
+                    <div class="w-12 h-12 bg-[#F1E4D3] text-[#9B2C2C] rounded-full flex items-center justify-center text-xl mx-auto">
+                        <i class="fa-solid fa-cheese"></i>
+                    </div>
+                    <h3 class="font-serif-aesthetic font-bold text-lg text-[#3A2218]">100% Premium Ingredients</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">Dibuat menggunakan keju krim pilihan berstandar internasional demi menghasilkan tekstur rasa gurih yang padat dan lembut.</p>
+                </div>
+                <div class="p-6 space-y-3 bg-[#FAF6F0] rounded-2xl shadow-xs border border-[#EADBC8]">
+                    <div class="w-12 h-12 bg-[#F1E4D3] text-[#9B2C2C] rounded-full flex items-center justify-center text-xl mx-auto">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <h3 class="font-serif-aesthetic font-bold text-lg text-[#3A2218]">Baked to Perfection</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">Teknik pemanggangan suhu tinggi yang menghasilkan lapisan luar kecokelatan eksotis dengan aroma karamel memikat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU & HARGA SECTION -->
+    <section id="menu" class="max-w-5xl mx-auto px-6 py-20">
+        <div class="text-center max-w-xl mx-auto mb-16">
+            <span class="text-[#9B2C2C] text-xs uppercase font-bold tracking-widest">Our Signature Menu</span>
+            <h2 class="font-serif-aesthetic text-3xl md:text-4xl font-bold mt-2 text-[#3A2218]">Varian Premium Cheesku</h2>
+            <div class="w-20 h-0.5 bg-[#9B2C2C] mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <!-- Menu 1: Choco Cheesku -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-[#F1E4D3] flex flex-col justify-between">
+                <div>
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=500&auto=format&fit=crop" alt="Choco Cheesku Burnt Cheesecake" class="w-full h-64 object-cover">
+                        <span class="absolute top-4 right-4 bg-[#4A2E1B] text-white text-[10px] uppercase tracking-wider px-3 py-1 rounded-full font-semibold">Rich Taste</span>
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-serif-aesthetic font-bold text-xl text-[#3A2218]">Choco Cheesku</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Kombinasi eksklusif adonan cokelat pekat berkualitas premium yang menyatu sempurna di dalam lembutnya adonan keju panggang khas Cheesku.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex justify-between items-center mt-4 border-t border-[#FAF6F0]">
+                    <div class="flex flex-col">
+                        <span class="text-xs text-gray-400">Harga per slice</span>
+                        <span class="text-xl font-bold text-[#9B2C2C]">Rp 17.000</span>
+                    </div>
+                    <a href="https://wa.me/6289508201339?text=Halo%20Cheesku,%20saya%20mau%20pesan%20Burnt%20Cheesecake%20varian%20Choco%20Cheesku!" target="_blank" class="bg-[#3A2218] text-white text-xs uppercase font-semibold px-4 py-2.5 rounded-lg hover:bg-[#9B2C2C] transition">
+                        Pesan (WA)
+                    </a>
+                </div>
+            </div>
+
+            <!-- Menu 2: Berry Cheesku -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-[#F1E4D3] flex flex-col justify-between">
+                <div>
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=500&auto=format&fit=crop" alt="Berry Cheesku Burnt Cheesecake" class="w-full h-64 object-cover">
+                        <span class="absolute top-4 right-4 bg-[#9B2C2C] text-white text-[10px] uppercase tracking-wider px-3 py-1 rounded-full font-semibold">Fresh Fruity</span>
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <h3 class="font-serif-aesthetic font-bold text-xl text-[#3A2218]">Berry Cheesku</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Rasa klasik cheesecake gurih original berpadu sempurna dengan siraman saus berry manis-asam segar di atas permukaan kue.</p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 flex justify-between items-center mt-4 border-t border-[#FAF6F0]">
+                    <div class="flex flex-col">
+                        <span class="text-xs text-gray-400">Harga per slice</span>
+                        <span class="text-xl font-bold text-[#9B2C2C]">Rp 16.000</span>
+                    </div>
+                    <a href="https://wa.me/6289508201339?text=Halo%20Cheesku,%20saya%20mau%20pesan%20Burnt%20Cheesecake%20varian%20Berry%20Cheesku!" target="_blank" class="bg-[#3A2218] text-white text-xs uppercase font-semibold px-4 py-2.5 rounded-lg hover:bg-[#9B2C2C] transition">
+                        Pesan (WA)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARA PEMBAYARAN -->
+    <section id="pembayaran" class="bg-[#F3EDE2] py-20 border-t border-[#EFEBE9]">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <span class="text-[#9B2C2C] text-xs uppercase font-bold tracking-widest">Sistem Transaksi</span>
+                <h2 class="font-serif-aesthetic text-3xl font-bold text-[#3A2218] mt-1">Alur Pemesanan & Pembayaran</h2>
+                <div class="w-12 h-0.5 bg-[#9B2C2C] mx-auto mt-3"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-[#FAF6F0] p-6 rounded-2xl border border-[#EADBC8] text-center space-y-3">
+                    <div class="w-10 h-10 bg-[#9B2C2C] text-white rounded-full flex items-center justify-center font-bold mx-auto">1</div>
+                    <h4 class="font-serif-aesthetic font-bold text-[#3A2218]">Pilih Menu & WhatsApp</h4>
+                    <p class="text-xs text-gray-500 leading-relaxed">Klik tombol "Pesan" pada item pilihan Anda. Format chat order otomatis akan langsung terkirim ke WhatsApp Cheesku.</p>
+                </div>
+                <div class="bg-[#FAF6F0] p-6 rounded-2xl border border-[#EADBC8] text-center space-y-3">
+                    <div class="w-10 h-10 bg-[#9B2C2C] text-white rounded-full flex items-center justify-center font-bold mx-auto">2</div>
+                    <h4 class="font-serif-aesthetic font-bold text-[#3A2218]">Konfirmasi Transfer</h4>
+                    <p class="text-xs text-gray-500 leading-relaxed">Lakukan pembayaran melalui transfer Bank (BCA, Mandiri) atau dompet digital (GoPay, OVO, DANA) sesuai totalan dari admin.</p>
+                </div>
+                <div class="bg-[#FAF6F0] p-6 rounded-2xl border border-[#EADBC8] text-center space-y-3">
+                    <div class="w-10 h-10 bg-[#9B2C2C] text-white rounded-full flex items-center justify-center font-bold mx-auto">3</div>
+                    <h4 class="font-serif-aesthetic font-bold text-[#3A2218]">Pengiriman Instan</h4>
+                    <p class="text-xs text-gray-500 leading-relaxed">Pesanan dikirim aman dari titik hub Tanjungsari-Jatinangor menggunakan kurir instan supaya produk terjaga dalam kondisi dingin & fresh.</p>
+                </div>
+            </div>
+
+            <!-- Metode Pembayaran Ringkas -->
+            <div class="mt-12 text-center space-y-3">
+                <span class="text-xs uppercase font-semibold tracking-wider text-gray-400 block">Menerima Metode Pembayaran:</span>
+                <div class="flex flex-wrap justify-center gap-6 text-[#4A2E1B] font-medium text-sm bg-[#FAF6F0] py-3 px-6 rounded-full w-fit mx-auto border border-[#EADBC8]">
+                    <span><i class="fa-solid fa-university mr-1.5 text-xs"></i> Bank BCA / Mandiri</span>
+                    <span class="text-gray-300">|</span>
+                    <span><i class="fa-solid fa-wallet mr-1.5 text-xs"></i> GoPay / ShopeePay</span>
+                    <span class="text-gray-300">|</span>
+                    <span>OVO / DANA</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER & CONTACT SECTION -->
+    <footer class="bg-[#3A2218] text-[#FAF6F0] pt-16 pb-8">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+            <!-- Info Brand -->
+            <div class="space-y-4">
+                <h3 class="font-serif-aesthetic text-2xl font-bold tracking-wide">Cheesku<span class="text-[#9B2C2C]">.</span></h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Menghadirkan kelezatan dessert kelas dunia langsung ke depan pintu rumah Anda dengan cita rasa karamelisasi premium yang mewah.</p>
+                <div class="flex space-x-4 pt-2">
+                    <a href="#" class="text-gray-400 hover:text-white transition text-lg"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition text-lg"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <!-- Area Operasional -->
+            <div class="space-y-4">
+                <h4 class="font-semibold text-[#F1E4D3] tracking-wide uppercase text-sm">Informasi Dapur</h4>
+                <ul class="text-sm text-gray-400 space-y-2">
+                    <li><strong class="text-white">Sistem Order:</strong> Freshly Baked & Pre-Order System</li>
+                    <li><strong class="text-white">Jam Operasional Kurir:</strong> 09:00 - 19:00 WIB</li>
+                    <li class="text-xs text-[#F1E4D3] italic"><i class="fa-solid fa-truck mr-1"></i> Area Pengiriman: Tanjungsari - Jatinangor</li>
+                </ul>
+            </div>
+
+            <!-- Kontak Langsung WhatsApp -->
+            <div class="space-y-4">
+                <h4 class="font-semibold text-[#F1E4D3] tracking-wide uppercase text-sm">Layanan Chat Admin</h4>
+                <p class="text-sm text-gray-400">Ingin memesan atau tanya ketersediaan stok rasa hari ini? Hubungi chat CS resmi kami.</p>
+                <a href="https://wa.me/6289508201339?text=Halo%20Cheesku,%20saya%20ingin%20memesan%20kue%20burnt%20cheesecake%20untuk%20daerah%20Tanjungsari%20/%20Jatinangor." target="_blank" class="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white font-bold px-5 py-3 rounded-xl hover:bg-[#20ba59] transition w-full text-sm tracking-wide shadow-md">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Chat WhatsApp (089508201339)
+                </a>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-6 pt-8 border-t border-[#5C3826] text-center text-xs text-gray-500">
+            &copy; 2026 Cheesku. All Rights Reserved. Premium Cheesecake Artisan.
+        </div>
+    </footer>
+
+</body>
+</html>
